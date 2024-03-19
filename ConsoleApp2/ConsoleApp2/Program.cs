@@ -13,16 +13,16 @@ class MyClass
 
     public static int calcMax(int[] a)
     {
-        int max = 0;
+        int mx = 0;
         for (int i = 0; i < a.Length; i++)
         {
-            if (a[i] > max)
+            if (a[i] > mx)
             {
-                max = a[i];
+                mx = a[i];
             }
         }
 
-        return max;
+        return mx;
     }
 
     public static int calcAvg(int[] a)
